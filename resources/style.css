@@ -5,6 +5,9 @@
 .header img {
   display: inline-block;
 }
+.sidebar {
+  text-align: center;
+}
 
 ul {
   list-style-type: none;
@@ -12,10 +15,12 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  display: inline-table;
 }
 
 li {
   float: left;
+  display: inline;
 }
 
 li a {
